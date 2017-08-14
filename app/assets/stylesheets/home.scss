@@ -1,4 +1,8 @@
-
+.image{
+  height:100%;
+  width:100%;
+ background-image:url('11.jpg');
+}
 .title{
         text-align :center;
 }
@@ -44,7 +48,7 @@ body {
   top: 0;
   left: -240px;
   z-index: 1000;
-  background-color: #FFE8A5;
+  background-color: #FFFFFF;
   overflow: auto;
 }
 #menu,
@@ -53,7 +57,7 @@ body {
    -moz-transition: all 0.3s ease;
    transition: all 0.3s ease;
    padding-bottom:800px;
-  overflow: hidden;
+   overflow: hidden;
    
 }
 #menu ul {
@@ -61,12 +65,12 @@ body {
 }
 #menu ul h1 {
   text-align: center;
-  color: #fff;
+  color: #0101B2;
   font-size: 2.5em;
   cursor: default;
 }
 #menu ul li:first-child {
-  background-color: #FFC357;
+  background-color: #FFFFFF;
 }
 #menu ul li {
   padding: 15px 0 15px 15px;
@@ -75,12 +79,12 @@ body {
   border-width: 0 0 .5px 0;
 }
 #menu ul li:hover {
-  background-color: #FFC357;
+  background-color: #0101EC;
 }
 #menu ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #fff;
+  color: #0101B2;
   font-weight: 300;
   font-size: 1.5em;
 }
@@ -88,10 +92,10 @@ body {
    left: 0px;
 }
 .menu-push {
-   left: 240px;
+  transform: translateX(0px);
 }
 .menu-btn {
-  color: #FFC357;
+  color: #0101EC;
   border: none;
   position: fixed;
   padding: 30px;
