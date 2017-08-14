@@ -30,8 +30,10 @@
             
             <% if user_signed_in? %>
 
+
                 <a class="nav-link active login"  style="color:#0101EC;"   fonts-size:"3px" ><i> <%= current_user.email %> </i></a>
                 <a class="nav-link active login"  href="/users/sign_out" style="color:#0101EC;"   fonts-size:"3px" > <i class="fa fa-sign-in" aria-hidden="true"></i> logout  </a>  
+
               <% else %>
                 <a class="nav-link active login" href="/users/sign_in" style="color:#0101EC;"     fonts-size:"3px"> <i class="fa fa-sign-out" aria-hidden="true"></i> login</a>  
                 <a class="nav-link active login" href="/users/sign_up" style="color:#0101EC; "   fonts-size:"3px"> <i class="fa fa-users" aria-hidden="true"></i> sign</a>  
@@ -52,6 +54,7 @@
 <%= yield %>
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+
 
 </body>
   
